@@ -61,11 +61,6 @@ public class ToDoList implements EntryPoint {
 	private final EntriesServiceAsync service =
 	    GWT.create(EntriesService.class);
 
-	// Resource resource = new
-	// Resource("http://127.0.0.1:8080/com.toptal.todotaskmanager.server/rest");
-	// private final EntriesServiceRest serviceREST =
-	// GWT.create(EntriesServiceRest.class);
-
 	public void onModuleLoad() {
 		/* Add pop-up panel for creating a new entry */
 		newEntryButton.addClickHandler(new ClickHandler() {
